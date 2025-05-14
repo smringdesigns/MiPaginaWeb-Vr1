@@ -1,0 +1,137 @@
+/* Estilos Generales del Cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #F8F8F8; /* Gris Muy Claro */
+    color: #333333; /* Gris Oscuro */
+}
+
+/* Estilos del Encabezado (Header) */
+header {
+    background-color: #6C63FF; /* Violeta Eléctrico */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la Navegación (Nav) dentro del Header */
+header nav ul {
+    list-style: none;
+    padding: 10px 0; /* Añadí padding vertical para espacio */
+    text-align: center;
+    margin: 0; /* Resetear márgenes */
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    font-weight: bold;
+    color: #4ECDC4; /* Turquesa Vibrante para los enlaces de navegación */
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: none;
+}
+
+header nav a:hover {
+    color: #FF6B6B; /* Rojo Coral al pasar el ratón */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la Línea Horizontal dentro del Header */
+header hr {
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Línea más clara para el fondo violeta */
+    margin: 15px auto; /* Centrar la línea y añadir espacio vertical */
+    width: 80%; /* Reducir el ancho de la línea */
+}
+
+/* Estilos de los Encabezados (h1 y h2) dentro del Header */
+header h1 {
+    margin: 10px 0 0; /* Añadí margen superior */
+    font-size: 2.5em;
+}
+
+header h2 {
+    color: white;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* Estilos de los Enlaces (<a>) fuera de la navegación */
+a {
+    color: #6C63FF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF6B6B;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+/* Estilos de las Secciones (<section>) */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos de las Listas (<ul> y <ol>) */
+ul, ol {
+    padding-left: 25px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Estilos de las Imágenes (<img>) */
+img {
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la Línea Horizontal fuera del Header */
+hr {
+    border: 1px solid #E0E0E0;
+    margin: 20px 0;
+}
+
+/* Estilos del Pie de Página (Footer) */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #4ECDC4;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer:hover {
+    color: #F8F8F8;
+}
